@@ -18,6 +18,17 @@ go run ./cmd/pick
 Клавиши: `↑/↓` — выбор, `/` — поиск, `enter` — карточка приложения,
 `i` — установить или удалить, `esc` — назад, `q` или `ctrl+c` — выход.
 
+## Ярлык в меню
+
+```sh
+go install ./cmd/pick
+cp data/io.github.nook_apps.Pick.desktop ~/.local/share/applications/
+cp -r data/icons/hicolor ~/.local/share/icons/
+```
+
+Ярлык запускает `pick` в терминале (`Terminal=true`), поэтому `~/go/bin` должен быть в `PATH`
+не только у оболочки, но и у сеанса: лаунчеры Hyprland берут `PATH` из него.
+
 ## Тесты
 
 ```sh
