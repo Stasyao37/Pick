@@ -7,8 +7,8 @@ import (
 
 	tea "github.com/charmbracelet/bubbletea"
 
-	"github.com/Stasyao37/pick/internal/backend/mock"
-	"github.com/Stasyao37/pick/internal/tui"
+	"github.com/nook-apps/pick/internal/backend/mock"
+	"github.com/nook-apps/pick/internal/tui"
 )
 
 func main() {

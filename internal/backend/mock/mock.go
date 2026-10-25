@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Stasyao37/pick/internal/backend"
+	"github.com/nook-apps/pick/internal/backend"
 )
 
 // Backend хранит каталог в памяти и имитирует установку.

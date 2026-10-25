@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Stasyao37/pick/internal/backend"
+	"github.com/nook-apps/pick/internal/backend"
 )
 
 // Проверка на этапе компиляции: mock реализует интерфейс Backend.

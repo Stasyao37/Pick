@@ -1,4 +1,4 @@
-module github.com/Stasyao37/pick
+module github.com/nook-apps/pick
 
 go 1.24.7
 

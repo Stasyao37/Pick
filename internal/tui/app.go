@@ -16,7 +16,7 @@ import (
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
 
-	"github.com/Stasyao37/pick/internal/backend"
+	"github.com/nook-apps/pick/internal/backend"
 )
 
 type screen int
